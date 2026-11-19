@@ -1,0 +1,104 @@
+{
+    "dataset": "/mnt/c/BigDataProjects/banking-fraud-detection/data/raw/banking_transactions.csv",
+    "total_rows": 10000,
+    "fraud_rows": 408,
+    "normal_rows": 9592,
+    "train_rows": 8000,
+    "test_rows": 2000,
+    "selected_model": "Logistic Regression",
+    "selection_metric": "fraud_class_f1_score",
+    "models": [
+        {
+            "model": "Logistic Regression",
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "confusion_matrix": [
+                [
+                    1918,
+                    0
+                ],
+                [
+                    0,
+                    82
+                ]
+            ],
+            "classification_report": {
+                "Normal": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 1918.0
+                },
+                "Fraud": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 82.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                }
+            }
+        },
+        {
+            "model": "Random Forest",
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "confusion_matrix": [
+                [
+                    1918,
+                    0
+                ],
+                [
+                    0,
+                    82
+                ]
+            ],
+            "classification_report": {
+                "Normal": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 1918.0
+                },
+                "Fraud": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 82.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                }
+            }
+        }
+    ]
+}

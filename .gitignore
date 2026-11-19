@@ -1,0 +1,50 @@
+﻿# Python environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated datasets
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Spark and Hadoop runtime
+spark-warehouse/
+metastore_db/
+derby.log/
+checkpoints/
+.airflow/
+
+# Logs
+logs/
+*.log
+
+# Machine learning models
+machine-learning/models/*.pkl
+machine-learning/models/*.joblib
+!machine-learning/models/best_fraud_model.joblib
+
+# Power BI temporary exports
+powerbi/dashboard/data/_powerbi_export_temp/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
